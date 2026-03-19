@@ -6,7 +6,7 @@ import AnimatedContent from './ui/Animations/AnimatedContent/AnimatedContent';
 import SpotlightCard from './ui/Components/SpotlightCard/SpotlightCard';
 import CountUp from './ui/TextAnimations/CountUp/CountUp';
 import { GraduationCap } from 'lucide-react';
-import profileImg from '../assets/259A7108.JPG';
+import profileImg from '../assets/profile.jpg';
 
 const About: React.FC = () => {
   const funFacts = [
