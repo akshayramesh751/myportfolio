@@ -721,14 +721,23 @@ class InfiniteGridMenu {
   public smoothRotationVelocity = 0;
   public scaleFactor = 1.0;
 
+  private canvas: HTMLCanvasElement;
+  private items: MenuItem[];
+  private onActiveItemChange: ActiveItemCallback;
+  private onMovementChange: MovementChangeCallback;
+
   constructor(
-    private canvas: HTMLCanvasElement,
-    private items: MenuItem[],
-    private onActiveItemChange: ActiveItemCallback,
-    private onMovementChange: MovementChangeCallback,
+    canvas: HTMLCanvasElement,
+    items: MenuItem[],
+    onActiveItemChange: ActiveItemCallback,
+    onMovementChange: MovementChangeCallback,
     onInit?: InitCallback,
     scale: number = 1.0
   ) {
+    this.canvas = canvas;
+    this.items = items;
+    this.onActiveItemChange = onActiveItemChange;
+    this.onMovementChange = onMovementChange;
     this.scaleFactor = scale;
     this.camera.position[2] = 3 * scale;
     this.init(onInit);

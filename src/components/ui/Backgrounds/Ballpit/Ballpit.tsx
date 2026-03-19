@@ -1,5 +1,5 @@
 import { gsap } from 'gsap';
-import { Observer } from 'gsap/Observer';
+import { Observer } from 'gsap/all';
 import React, { useEffect, useRef } from 'react';
 import {
   ACESFilmicToneMapping,
@@ -430,7 +430,7 @@ class Y extends MeshPhysicalMaterial {
     thicknessPower: { value: 2 },
     thicknessScale: { value: 10 }
   };
-  defines: { USE_UV: string; };
+  declare defines: { USE_UV: string; };
 
   constructor(params: any) {
     super(params);
