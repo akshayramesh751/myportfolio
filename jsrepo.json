@@ -1,0 +1,17 @@
+{
+  "$schema": "https://jsrepo.dev/schema.json",
+  "watermark": false,
+  "formatter": "prettier",
+  "typescript": true,
+  "tailwind": {
+    "config": "tailwind.config.js",
+    "css": "src/index.css"
+  },
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils"
+  },
+  "paths": {
+    "components": "src/components/ui"
+  }
+}
