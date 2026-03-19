@@ -16,8 +16,12 @@ import { MeshLineGeometry, MeshLineMaterial } from 'meshline';
 import * as THREE from 'three';
 
 // replace with your own imports, see the usage snippet for details
-import cardGLB from './card.glb';
-import lanyard from './lanyard.png';
+// @ts-ignore
+// import cardGLB from './card.glb';
+const cardGLB = '';
+// @ts-ignore
+// import lanyard from './lanyard.png';
+const lanyard = '';
 
 extend({ MeshLineGeometry, MeshLineMaterial });
 
