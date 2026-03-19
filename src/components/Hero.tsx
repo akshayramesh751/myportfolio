@@ -63,7 +63,11 @@ const Hero: React.FC = () => {
               View My Work
             </StarBorder>
           </div>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="px-8 py-3 rounded-full border border-accent text-accent font-medium hover:bg-accent hover:text-bg transition-all duration-300">
+          <a 
+            href="/resume.pdf" 
+            download="Akshay_Ramesh_Resume.pdf"
+            className="px-8 py-3 rounded-full border border-accent text-accent font-medium hover:bg-accent hover:text-bg transition-all duration-300"
+          >
             Download Resume
           </a>
         </div>
