@@ -1,73 +1,88 @@
-# React + TypeScript + Vite
+# 🚀 Akshay Ramesh | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cutting-edge, interactive portfolio website showcasing my journey as a **Full Stack Developer** and **AI/ML Enthusiast**. This site is built with a focus on high-performance animations, modern aesthetics, and seamless user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎨 Project Overview
 
-## React Compiler
+This website serves as my digital home, featuring:
+- **Dynamic Hero Section**: Interactive animations and multi-layered background effects (Aurora & LaserFlow).
+- **Recent Projects**: A curated list of my work, including Saankhya Academy and more.
+- **Experience Timeline**: A visual history of my professional and educational journey.
+- **Interactive Skills**: Visually engaging skill displays with smooth hover effects.
+- **Contact Hub**: Easy ways to reach out via email or connect on LinkedIn, GitHub, and LeetCode.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### **Core Stack**
+- **[React 19](https://react.dev/)**: The latest in component-based UI development.
+- **[Vite](https://vitejs.dev/)**: Next-generation frontend tooling for lightning-fast builds.
+- **[TypeScript](https://www.typescriptlang.org/)**: Static type checking for robust and maintainable code.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Utility-first CSS framework for rapid UI styling.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### **Animations & 3D**
+- **[GSAP](https://gsap.com/)**: Professional-grade animation library for complex timelines.
+- **[Framer Motion](https://www.framer.com/motion/)**: Fluid motion and gestures for React components.
+- **[Three.js](https://threejs.org/)** & **[React Three Fiber](https://r3f.docs.pmnd.rs/)**: Powering immersive 3D interactions.
+- **[React Bits](https://www.reactbits.dev/)**: Specialized UI components for advanced text and background animations.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### **Utilities**
+- **[Lucide React](https://lucide.dev/)**: Beautifully simple icons.
+- **[Lenis](https://lenis.darkroom.engineering/)**: High-performance smooth scrolling.
+- **[React Router](https://reactrouter.com/)**: Declarative routing for React.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ✨ Key Features
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- 🌌 **Aurora Backgrounds**: Smooth, high-performance gradient animations.
+- ⚡ **Laser Flow & Spark Effects**: Interactive particles and laser trails that respond to mouse movement.
+- 📱 **Fully Responsive**: Optimized for all devices, from mobile phones to ultra-wide monitors.
+- 🎭 **Text Animations**: Utilizing `SplitText`, `BlurText`, and `TextType` for a professional, cinematic feel.
+- 🕒 **Smooth Scroll**: Enhanced browsing experience powered by Lenis.
+- 🌑 **Premium Dark Theme**: Sleek, modern aesthetic with consistent branding.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🚀 Getting Started
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/akshayramesh751/myportfolio.git
+   cd myportfolio
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 📬 Connectivity
+
+Let's discuss how we can build something amazing together!
+
+- **Email**: [akshayramesh2211@gmail.com](mailto:akshayramesh2211@gmail.com)
+- **LinkedIn**: [Akshay Ramesh](https://linkedin.com/in/akshay-ramesh)
+- **GitHub**: [@akshayramesh751](https://github.com/akshayramesh751)
+- **LeetCode**: [My Profile](https://leetcode.com/u/B0YOIbQIlT/)
+
+---
+
+Made with ❤️ by Akshay Ramesh

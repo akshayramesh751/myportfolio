@@ -12,7 +12,7 @@ const projects = [
     tags: ["React", "Tailwind CSS", "TypeScript",],
     demoLink: "https://saankhya.academy/",
     githubLink: "https://github.com/akshayramesh751/Saankhyav2",
-    image: "/src/assets/sankhya.jpg",
+    image: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?q=80&w=1000&auto=format&fit=crop",
     featured: true
   },
   {
