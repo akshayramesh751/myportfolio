@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
           <a href="https://linkedin.com/in/akshay-ramesh" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 rounded-full hover:bg-accent/20 text-white/50 hover:text-white transition-all shadow-[0_0_0_rgba(6,182,212,0)] hover:shadow-[0_0_15px_rgba(6,182,212,0.5)]">
             <Linkedin className="w-5 h-5" />
           </a>
-          <a href="mailto:akshayramesh751@gmail.com" className="p-3 bg-white/5 rounded-full hover:bg-green-500/20 text-white/50 hover:text-white transition-all shadow-[0_0_0_rgba(34,197,94,0)] hover:shadow-[0_0_15px_rgba(34,197,94,0.5)]">
+          <a href="mailto:akshayramesh2211@gmail.com" className="p-3 bg-white/5 rounded-full hover:bg-green-500/20 text-white/50 hover:text-white transition-all shadow-[0_0_0_rgba(34,197,94,0)] hover:shadow-[0_0_15px_rgba(34,197,94,0.5)]">
             <Mail className="w-5 h-5" />
           </a>
           <a href="https://www.instagram.com/akshay.rameshh/" className="p-3 bg-white/5 rounded-full hover:bg-pink-500/20 text-white/50 hover:text-white transition-all shadow-[0_0_0_rgba(236,72,153,0)] hover:shadow-[0_0_15px_rgba(236,72,153,0.5)]">

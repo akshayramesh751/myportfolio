@@ -119,7 +119,7 @@ const Contact: React.FC = () => {
           {/* Contact Info & Circular Text */}
           <div className="lg:col-span-2 flex flex-col gap-8 h-full">
             <div className="flex flex-col gap-4">
-              <a href="mailto:akshayramesh751@gmail.com" className="flex items-center gap-4 p-6 bg-white/5 border border-white/10 rounded-2xl hover:border-primary/50 hover:bg-white/10 transition-all group">
+              <a href="mailto:akshayramesh2211@gmail.com" className="flex items-center gap-4 p-6 bg-white/5 border border-white/10 rounded-2xl hover:border-primary/50 hover:bg-white/10 transition-all group">
                 <div className="p-4 bg-primary/20 rounded-full text-primary group-hover:scale-110 transition-transform">
                   <Mail className="w-6 h-6" />
                 </div>

@@ -51,8 +51,8 @@ const Hero: React.FC = () => {
 
         {/* Bio */}
         <BlurText
-          text="Building responsive, high-performance web apps. Pursuing BE in AI & Machine Learning."
-          className="text-lg md:text-xl text-white/70 max-w-2xl mb-12 leading-relaxed"
+          text="Building responsive, high-performance web apps. Pursuing BE in Artificial Intelligence and Machine Learning."
+          className="text-lg md:text-xl text-white/70 max-w-2xl mb-12 leading-relaxed justify-center"
           delay={50}
         />
 
